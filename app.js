@@ -11,7 +11,7 @@ list.addEventListener('click', function (evt) {
 
 function newElement() {
     var li = document.createElement("LI");
-    var inputValue = document.getElementById("myInput").valu
+    var inputValue = document.getElementById("myInput").value
     const task = document.createElement("input");
     task.className = "textbox"
     task.setAttribute('value', inputValue);
